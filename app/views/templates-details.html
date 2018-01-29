@@ -1,0 +1,40 @@
+<div>
+  <br>
+  <a href="#!/templates">Go Back</a>
+  <br><br>
+  <div class="col-md-4">
+    <img class="img-full" src="images/{{templateDetails.mainImage}}"/>
+    <div class="row">
+      <div ng-repeat="image in template.images">
+        <div class="col-md-3">
+          <img class="img-full" ng-src="images/{{image.name}}">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-8">
+    <h3>{{template.name}}</h3>
+    <p>The description of {{template.name}} template</p>
+    <p>Type: {{template.type}}</p>
+    <p>Price: {{template.price}}</p>
+    BUY IT
+
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+      <!-- Saved buttons use the "secure click" command -->
+      <input type="hidden" name="cmd" value="_s-xclick">
+
+      <!-- Saved buttons are identified by their button IDs -->
+      <input type="hidden" name="hosted_button_id" value="221">
+
+      <!-- Saved buttons display an appropriate button image. -->
+      <input type="image" name="submit"
+             src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif"
+             alt="PayPal - The safer, easier way to pay online">
+      <img alt="" width="1" height="1"
+           src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+
+    </form>
+
+  </div>
+</div>

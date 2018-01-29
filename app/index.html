@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Template Store</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" >
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body ng-app="webTemplateStoreApp">
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand" href="#/">Template Store</a>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" align="right" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<div class="container">
+
+  <div ng-view>
+  </div>
+
+</div><!-- /.container -->
+
+<!-- build:js(.) scripts/vendor.js -->
+<!-- bower:js -->
+<script src="../bower_components/jquery/dist/jquery.js"></script>
+<script src="../bower_components/jquery/dist/jquery.slim.min.js"></script>
+<script src="../bower_components/angular/angular.js"></script>
+<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../bower_components/angular-resource/angular-resource.js"></script>
+<script src="../bower_components/angular-route/angular-route.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+
+<!-- build:js({.tmp,app}) scripts/scripts.js -->
+<script src="scripts/app.js"></script>
+<script src="scripts/controllers/TemplateCtrl.js"></script>
+<script src="scripts/controllers/TemplateDetailsCtrl.js"></script>
+<!-- endbuild -->
+
+</body>
+</html>

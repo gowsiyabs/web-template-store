@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Blue Theme",
+    "description": "The blue theme",
+    "type": "html5",
+    "price": 19.99,
+    "images":[
+      {
+        "name": "blue.png"
+      },
+      {
+        "name": "blue.png"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Red Theme",
+    "description": "The red theme",
+    "type": "html5",
+    "price": 19.99,
+    "images":[
+      {
+        "name": "red.png"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Green Theme",
+    "description": "The green theme",
+    "type": "html5",
+    "price": 16.99,
+    "images":[
+      {
+        "name": "green.png"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Orange Theme",
+    "description": "The orange theme",
+    "type": "html5",
+    "price": 19.00,
+    "images":[
+      {
+        "name": "orange.png"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Purple Theme",
+    "description": "The purple theme",
+    "type": "html5",
+    "price": 19.99,
+    "images":[
+      {
+        "name": "purple.png"
+      }
+    ]
+  }
+]
